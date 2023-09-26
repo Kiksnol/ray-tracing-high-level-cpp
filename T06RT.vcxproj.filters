@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Math support">
+      <UniqueIdentifier>{e56ee8ca-f982-4b0d-8e35-360a0d8d5acd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Windows dependend">
+      <UniqueIdentifier>{ba753a86-af32-43b3-883b-388cebd07f1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing">
+      <UniqueIdentifier>{647c5a33-a38e-4266-86ae-3f2fb50064a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Frame buffer">
+      <UniqueIdentifier>{88afb867-fa6a-49df-97af-e2982e627173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Sphere intersection">
+      <UniqueIdentifier>{681cb7c6-6b31-4dd9-a168-0739e8c28227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Stock Handle">
+      <UniqueIdentifier>{3f70a66f-0b4e-4299-b813-00049f7a6f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Plane intersection">
+      <UniqueIdentifier>{b6d9a5b9-63e8-4d36-86de-fbf8ebe45376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Box intersection">
+      <UniqueIdentifier>{09fba00a-9de0-4a47-84c8-6b9409a72655}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Triangle intersection">
+      <UniqueIdentifier>{13a43d86-101a-413d-ac92-c70de4c5d8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ray Tracing\Light">
+      <UniqueIdentifier>{ffff4bd5-6dd8-4d1b-a438-1fa965cc760d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Timer handle">
+      <UniqueIdentifier>{0c8fae16-bf06-4563-a800-4659962da64d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\win\winmsg.cpp">
+      <Filter>Source Files\Windows dependend</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\mth\mth.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_matr.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec2.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec3.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mthdef.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_vec4.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\def.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_ray.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mth\mth_camera.h">
+      <Filter>Source Files\Math support</Filter>
+    </ClInclude>
+    <ClInclude Include="src\win\win.h">
+      <Filter>Source Files\Windows dependend</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\frame\frame.h">
+      <Filter>Source Files\Ray Tracing\Frame buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\rt.h">
+      <Filter>Source Files\Ray Tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\intersections\sphere.h">
+      <Filter>Source Files\Ray Tracing\Sphere intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\nirt.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\intersections\plane.h">
+      <Filter>Source Files\Ray Tracing\Plane intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stock.h">
+      <Filter>Source Files\Stock Handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\intersections\box.h">
+      <Filter>Source Files\Ray Tracing\Box intersection</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\rtdef.h">
+      <Filter>Source Files\Ray Tracing</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\lights\point.h">
+      <Filter>Source Files\Ray Tracing\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Source Files\Timer handle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rt\intersections\triangle.h">
+      <Filter>Source Files\Ray Tracing\Triangle intersection</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
